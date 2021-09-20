@@ -57,6 +57,12 @@ image location (docker hub) : sohananisetty/pheonix-ros-melodic-px4-gazebo
 
     cd home/px4    #This is in container
     make px4_sitl_default gazebo
+    
+## If gazebo is unable to download models 
+    
+    cd ~/.gazebo/
+    git clone https://github.com/osrf/gazebo_models
+    mv gazebo_models models
 
 
 ## Access the container in a new terminal/ start container
