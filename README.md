@@ -92,8 +92,8 @@ image location (docker hub) : sohananisetty/pheonix-ros-melodic-px4-gazebo
 
 #### Navigate into catkin workspace (inside container). 
 
-    mkdir -p home/catkin_ws/src
-    cd home/catkin_ws/src
+    mkdir -p /home/catkin_ws/src
+    cd /home/catkin_ws/src
     git clone https://github.com/vanquish630/pheonix.git
     cd ..
     catkin_make
