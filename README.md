@@ -56,7 +56,11 @@ image location (docker hub) : sohananisetty/pheonix-ros-melodic-px4-gazebo
 ####  Build SITL (run in px4 directory). This is for building quadcopter with gazebo simulator. For other vehicle types or other simulators see the [documentation](https://docs.px4.io/master/en/simulation/). 
 
     cd home/px4    #This is in container
+    export LANG=C.UTF-8
+    export LC_ALL=C.UTF-8
     make px4_sitl_default gazebo
+    
+
     
 ## If gazebo is unable to download models 
     
